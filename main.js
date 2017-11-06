@@ -21,7 +21,7 @@ function sumaArray(numeros) {
 function sumaArray2(numeros) {
     let suma = 0;
     for (let pos in numeros) {
-        suma = suma + nuemros[pos];
+        suma = suma + numeros[pos];
     }
     return suma;
 }
@@ -36,4 +36,5 @@ function sumaArray3(numeros) {
 }
 let res = sumaArray3([2, 3, 4, 5])
 
-console.log(res)
+console.log("la coleccion que vamos a sumar es =>",[2,3,4,5])
+console.log("El resultado es =>",res)
